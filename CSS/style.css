@@ -1,0 +1,46 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+header {
+    text-align: center;
+}
+
+h1 {
+    background-color: #00ffff;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#side{
+    margin-top: 10px;
+    outline: none;
+    border-radius: 7px;
+    border: solid #48e6e6  ;
+    padding: 10px;
+}
+
+#side:focus {
+    border: solid #021313 ;
+}
+
+button {
+    background-color: darkgray;
+    color: black;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(170, 112, 112);
+}
+
+button:active {
+    border-color: rgb(206, 166, 166);
+    transform: translateY(10px);
+}
