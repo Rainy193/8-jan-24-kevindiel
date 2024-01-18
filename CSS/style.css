@@ -7,7 +7,8 @@ header {
 }
 
 h1 {
-    background-color: #00ffff;
+    background-color: #8ae4ac;
+    color: #021313;
 }
 
 .input {
@@ -24,12 +25,12 @@ h1 {
     margin-top: 10px;
     outline: none;
     border-radius: 7px;
-    border: solid #48e6e6;
+    border: solid #b5d3d3;
     padding: 10px;
 }
 
 .side:focus {
-    border: solid #021313;
+    border: solid #2f5353b9;
 }
 
 .button-container {
@@ -39,8 +40,8 @@ h1 {
 }
 
 .button-container button {
-    background-color: grey;
-    color: black;
+    background-color: rgb(183, 170, 255);
+    color: rgb(0, 0, 0);
     border: none;
     border-radius: 7px;
     padding: 10px 15px;
@@ -48,12 +49,12 @@ h1 {
 }
 
 .button-container button:hover {
-    background-color: rgb(184, 107, 107);
+    background-color: rgba(168, 72, 168, 0.726);
 }
 
 .button-container button:active {
-    border-color: rgb(206, 166, 166);
-    transform: translateY(1px);
+    border-color: rgb(252, 179, 227);
+    transform: translateY(5px);
 }
 
 img {

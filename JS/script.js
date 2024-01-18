@@ -19,9 +19,6 @@ function fun() {
     first.value = null;
 }
 
-
-
-
 // Menangkap elemen-elemen HTML
 const inputLuas = document.getElementById('luas');
 const inputKeliling = document.getElementById('keliling');
