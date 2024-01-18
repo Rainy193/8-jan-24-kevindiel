@@ -3,25 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kalkulator</title>
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
     <header>
         <h1>Kalkulator Luas Dan Keliling Persegi</h1>
-        <h4>Welcome to kalkulator Luas dan Keliling Persegi </h4>
-        <p>Web ini di gunakan untuk menghitung Luas dan Keliling Persegi</p>
+        <h2>Welcome to kalkulator Luas dan Keliling Persegi </h2>
+        <h4>Web ini di gunakan untuk menghitung Luas dan Keliling Persegi</h4>
     </header>
 
+    <div class="samping">
+        <img src="https://o-cdn-cas.sirclocdn.com/parenting/images/Persegi_finirezyhome.wordpress.co.width-500.format-webp.webp" height="350px" width="350px">
+        <img src="https://o-cdn-cas.sirclocdn.com/parenting/images/Persegi_finirezyhome.wordpress.co.width-500.format-webp.webp" height="350px" width="350px">
+    </div>
+
     <div class="input">
-        <label for="side" id="labelSide" >Hitung Luas Persegi</label>
-        <input type="number" id="side">
+        <label for="luas" class="labelSide">Hitung Luas Persegi</label>
+        <label for="keliling" class="labelSide">Hitung Keliling Persegi</label>
     </div>
 
-    <div class="button">
-        <button id="">Hitung</button>
-        <button id="">Reset</button>
-
+    <div class="input2">
+        <div>
+            <input type="number" id="luas" class="side">
+            <div class="button-container">
+                <button class="mm1" id="HLuas">Hitung</button>
+                <button id="resetLuas">Reset</button>
+            </div>
+            <p id="resultLuas">Luas=Sisi x Sisi</p>
+        </div>
+        <div>
+            <input type="number" id="keliling" class="side">
+            <div class="button-container">
+                <button id="HKeliling">Hitung</button>
+                <button id="resetKeliling">Reset</button>
+            </div>
+            <p id="resultKeliling">Keliling=4 x Sisi</p>
+        </div>
     </div>
+
+    <script src="JS/script.js"></script>
 </body>
 </html>
